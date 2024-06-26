@@ -1,0 +1,4 @@
+frutas = ('Manazana', 'Frutilla', 'Banana', 'Sandia', 'Naranja')
+
+
+print(frutas)
