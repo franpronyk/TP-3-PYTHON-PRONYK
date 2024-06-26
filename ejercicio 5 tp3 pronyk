@@ -1,0 +1,5 @@
+
+coordenadas_lago = (66, 33)
+
+
+print("Coordenadas del lago:", coordenadas_lago)
