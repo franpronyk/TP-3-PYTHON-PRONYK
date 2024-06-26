@@ -1,0 +1,18 @@
+inscripcion = "Durante la expedición, los exploradores encontraron una inscripción antigua en un templo."
+
+
+frecuencia_letras = {}
+
+for letra in inscripcion:
+    
+    if letra.isalpha():
+        
+        letra = letra.lower()
+        
+        if letra in frecuencia_letras:
+            frecuencia_letras[letra] += 1
+        else:
+            frecuencia_letras[letra] = 1
+
+
+print("La frecuencia de la inscripcion es la siguiente:",frecuencia_letras)
